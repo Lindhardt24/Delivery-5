@@ -18,7 +18,7 @@ import plotly.graph_objects as go
 
 # Pymongo hjælper os med at hive databasen ned Atlas clusteren.
 # NB Husk at ændre password fra Extern-password fil tilsendt.
-myclient = pymongo.MongoClient("mongodb+srv://Righthereismyusername:Thisismysecurepassword@clusterdelivery5.0nc0d.mongodb.net/?retryWrites=true&w=majority")
+myclient = pymongo.MongoClient("mongodb+srv://Righthereismyusername:TYPEPASSWORD HERE@clusterdelivery5.0nc0d.mongodb.net/?retryWrites=true&w=majority")
 
 # Dash appen startes and the magic starts to happen
 app = Dash(__name__)
