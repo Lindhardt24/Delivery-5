@@ -1,5 +1,6 @@
 ##############################################Main.py###########################################
 ###############---------------------Bruges til data fra MongoDB-----------------------#########
+############# Cd til /python/Scripts og herefter activate, for at starte venv ############
 #########-------------- Run pip install -r requirements.txt before using!######################
 ######## HUSK at ændre password! Er i bunden af rapporten.########################
 
