@@ -1,6 +1,6 @@
 ################################################Main MySQL#########################################
 ###-------------- Run pip install -r requirements.txt before using!######################
-
+######## HUSK at ændre password! Er i bunden af rapporten.########################
 # Bruges til at importere de forskellige biblioteker
 from h11 import Data
 import mysql.connector
@@ -15,7 +15,7 @@ import numpy as np
 import plotly.express as px
 
 # MySQL connection til databasen. Her skal password tastes ind fra opgaven
-# NB Husk at ændre password fra Extern password fil tilsendt.
+# NB Husk at ændre password! Er i bunden af rapporten
 db_connection = mysql.connector.connect(
     host="mysql4delivery5.mysql.database.azure.com",
     user="Righthereismyusername",
