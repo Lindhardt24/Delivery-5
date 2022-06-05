@@ -1,6 +1,7 @@
 ##############################################Main.py###########################################
 ###############---------------------Bruges til data fra MongoDB-----------------------#########
 #########-------------- Run pip install -r requirements.txt before using!######################
+######## HUSK at ændre password! Er i bunden af rapporten.########################
 
 # Importerer de forskellige biblioteker
 from random import uniform
@@ -17,7 +18,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Pymongo hjælper os med at hive databasen ned Atlas clusteren.
-# NB Husk at ændre password fra Extern-password fil tilsendt.
+# NB PASSWORD er i bunden af rapporten.
 myclient = pymongo.MongoClient("mongodb+srv://Righthereismyusername:TYPEPASSWORD HERE@clusterdelivery5.0nc0d.mongodb.net/?retryWrites=true&w=majority")
 
 # Dash appen startes and the magic starts to happen
