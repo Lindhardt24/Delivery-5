@@ -20,7 +20,7 @@ db_connection = mysql.connector.connect(
     host="mysql4delivery5.mysql.database.azure.com",
     user="Righthereismyusername",
     port="3306",
-    password="Thisismysecurepassword1",
+    password="TYPEPASSWORDHERE",
     database="measure",
 )
 # Her kigger vi efter databaser på SQL-serveren. Det bruges da vi ikke skal skrive noget til filen. 
